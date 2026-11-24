@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+inventory:
+  service:
+    base-url: http://localhost:4000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
